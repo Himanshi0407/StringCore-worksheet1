@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1675c639-c1ea-4a36-84c4-6937bb70ce75" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/SpringSheet1/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/SpringSheet1/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/SpringSheet1/wire/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/SpringSheet1/wire/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/SpringSheet1/wire/annotation/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/SpringSheet1/wire/annotation/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/SpringSheet1/wire/annotation/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/SpringSheet1/wire/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/autoconfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/SpringSheet1/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +44,21 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_directory_selection": "C:/Users/Abhay Duhoon/Documents/SE Book/SpringSheet1/src/test/java/com/SpringSheet1",
+    "last_opened_file_path": "C:/Users/Abhay Duhoon/Documents/SE Book/SpringSheet1/src/test/resources",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Abhay Duhoon\Documents\SE Book\SpringSheet1\src\test\resources" />
+      <recent name="C:\Users\Abhay Duhoon\Documents\SE Book\SpringSheet1\src\test\java\com\SpringSheet1\auto\wire" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.SpringSheet1.wire.annotation" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.com.SpringSheet1.wire.annotation.test">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.SpringSheet1.App" />
       <module name="SpringSheet1" />
@@ -60,8 +72,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.SpringSheet1.wire.annotation.test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.SpringSheet1.wire.annotation.test" />
+      <module name="SpringSheet1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.SpringSheet1.wire.annotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.SpringSheet1.wire.test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.SpringSheet1.wire.test" />
+      <module name="SpringSheet1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.SpringSheet1.wire.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.SpringSheet1.auto.wire.test" />
+      <module name="SpringSheet1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.SpringSheet1.auto.wire.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.SpringSheet1.wire.annotation.test" />
+        <item itemvalue="Application.com.SpringSheet1.wire.test" />
+        <item itemvalue="Application.test" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
